@@ -1,6 +1,6 @@
 module "aft-vendingaccount1" {
 
-  source = "github.com/rameshdonti/aft-account-request"
+  source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "ramdonti+sandbox1@amazon.com"
