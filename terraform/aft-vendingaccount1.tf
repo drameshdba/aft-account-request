@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "703671925392-aftbootstrap-tfstate"
-    key    = "state/terraform.tfstate"
+    key    = "state/terraform-aft-vendingaccount1..tfstate"
     region = "us-east-1"
     dynamodb_table = "ddb-aftbootstrap-state"
   }
