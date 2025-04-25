@@ -1,3 +1,16 @@
+provider "aws" {
+  region 	= "us-east-1"
+}
+
+terraform {
+  backend "s3" {
+    bucket = "703671925392-aftbootstrap-tfstate"
+    key    = "state/terraform.tfstate"
+    region = "us-east-1"
+    dynamodb_table = "ddb-aftbootstrap-state"
+  }
+}
+
 module "aft-vendingaccount1" {
 
   source = "./modules/aft-account-request.git"
