@@ -12,7 +12,14 @@ module "aft-vendingaccount1" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "ABC:Owner"       = "myname@mycompany.com"
+    "ABC:Division"    = "ENT"
+    "ABC:Environment" = "Dev"
+    "ABC:CostCenter"  = "123456"
+    "ABC:Vended"      = "true"
+    "ABC:DivCode"     = "102"
+    "ABC:BUCode"      = "ABC003"
+    "ABC:Project"     = "123456"
   }
 
   change_management_parameters = {
@@ -23,5 +30,5 @@ module "aft-vendingaccount1" {
   custom_fields = {
     group = "non-prod"
   }
-
+account_customizations_name = "SANDBOX"
 }
