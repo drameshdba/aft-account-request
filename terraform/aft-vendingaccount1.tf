@@ -6,7 +6,7 @@ module "aft-vendingaccount1" {
     AccountEmail              = "ramdonti+sandbox1@amazon.com"
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Custom"
-    SSOUserEmail              = "ramdonti@amazon.com"
+    SSOUserEmail              = "ramdonti+sandbox1@amazon.com"
     SSOUserFirstName          = "sandbox1"
     SSOUserLastName           = "SSO"
   }
@@ -30,5 +30,5 @@ module "aft-vendingaccount1" {
   custom_fields = {
     group = "non-prod"
   }
-account_customizations_name = "SANDBOX"
+account_customizations_name = "Test-Sandbox"
 }
