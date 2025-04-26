@@ -5,7 +5,7 @@ module "aft-vendingaccount1" {
   control_tower_parameters = {
     AccountEmail              = "ramdonti+sandbox1@amazon.com"
     AccountName               = "sandboxaft"
-    ManagedOrganizationalUnit = "Root"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "ramdonti+sandbox1@amazon.com"
     SSOUserFirstName          = "sandbox1"
     SSOUserLastName           = "SSO"
