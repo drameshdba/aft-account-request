@@ -1,4 +1,4 @@
-module "aft-vendingaccount1" {
+module "aft-vendingaccount2" {
 
   source = "./modules/aft-account-request"
 
