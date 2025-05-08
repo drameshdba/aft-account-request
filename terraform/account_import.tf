@@ -22,8 +22,8 @@ source = "./modules/aft-account-request"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "Account_Infra"
+    change_reason       = "Import a Sandbox account in AFT"
   }
   account_customizations_name = "SANDBOX"
 }
