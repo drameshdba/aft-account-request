@@ -37,5 +37,5 @@ module "nico-account-1" {
     custom2 = "b"
   }
 
-  account_customizations_name = "nico-customizations"
+  account_customizations_name = "SANDBOX"
 }
