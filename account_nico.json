@@ -1,11 +1,1 @@
-{
-  "account_name": "nico_test",
-  "account_email": "amdonti+nicotest@amazon.com",
-  "SSO_user_email": "amdonti+nicotest@amazon.com",
-  "SSO_user_first_name": "nico",
-  "SSO_user_last_name": "gagnon",
-  "managed_organizational_unit": "Sandbox",
-  "custom_fields": {
-    "env": "Sandbox"
-  }
-}
+
