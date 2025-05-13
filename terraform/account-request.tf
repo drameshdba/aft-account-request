@@ -2,7 +2,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-module "nico-account-1" {
+module "nico-account-2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
