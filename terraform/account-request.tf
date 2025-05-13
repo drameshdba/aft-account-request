@@ -5,19 +5,19 @@ module "nico-account-1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "amdonti+nicotest@amazon.com"
+    AccountEmail = "ramdonti+nicotest@amazon.com"
     AccountName  = "nico-account-1"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox"
     # Syntax for nested OU
     # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
-    SSOUserEmail     = "amdonti+nicotest@amazon.com"
+    SSOUserEmail     = "ramdonti+nicotest@amazon.com"
     SSOUserFirstName = "John"
     SSOUserLastName  = "Doe"
   }
 
   account_tags = {
-    "ABC:Owner"       = "amdonti+nicotest@amazon.com"
+    "ABC:Owner"       = "ramdonti+nicotest@amazon.com"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
