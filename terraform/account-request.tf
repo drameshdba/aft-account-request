@@ -1,4 +1,4 @@
-module "aft_account_import" {
+module "aft_account_modify" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
