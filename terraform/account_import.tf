@@ -8,9 +8,9 @@ module "aft_account_import" {
     AccountEmail = "ramdonti+lgasandbox@amazon.com"
     AccountName  = "lgasandbox"
     # Syntax for top-level OU
-    ManagedOrganizationalUnit = "Sandbox"
+    ManagedOrganizationalUnit = "DistrictNutrition"
     # Syntax for nested OU
-    # ManagedOrganizationalUnit = "Sandbox (ou-xfe5-a8hb8ml8)"
+    # ManagedOrganizationalUnit = "DistrictNutrition ou-p1uj-lbglh4tx"
     SSOUserEmail     = "ramdonti+lgasandbox@amazon.com"
     SSOUserFirstName = "ramesh"
     SSOUserLastName  = "donti"
