@@ -5,7 +5,7 @@ module "aft_account_import" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "ramdonti+lgasandbox@amazon.com"
+    AccountEmail = "ramdonti+lgasandboxnew@amazon.com"
     AccountName  = "lgasandbox"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "DistrictNutrition"
